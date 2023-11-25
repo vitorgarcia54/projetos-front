@@ -106,49 +106,24 @@
 
 /* Responsividade */
 
-/* Celulares pequenos - 320px até 375px */
-@media only screen and (min-width: 320px) and (max-width: 375px) {
+/* Smartphones - Até 600px */
+@media only screen and (max-width: 600px) {
 	.cabecalho-form-desabafo h1 {
-		font-size: 1.4rem;
+		font-size: 1.5rem;
 	}
 
-	.cabecalho-form-desabafo p {
-		font-size: .9rem;
-	}
-
+	.cabecalho-form-desabafo p,
 	.area-campos-form label {
-		font-size: .9rem;
+		font-size: 1rem;		
 	}
 
 	.campos-form {
-		font-size: .8rem;
+		font-size: .87rem;
 	}
 
 	.btn-submit {
-		font-size: 1.1rem;
-	}
-}
-
-/* Celulares médios - 375px até 425px */
-@media only screen and (min-width: 375px) and (max-width: 425px) {
-	.cabecalho-form-desabafo h1 {
-		font-size: 1.6rem;
-	}
-
-	.cabecalho-form-desabafo p {
-		font-size: 1rem;
-	}
-
-	.area-campos-form label {
-		font-size: 1rem;
-	}
-
-	.campos-form {
-		font-size: .9rem;
-	}
-
-	.btn-submit {
-		font-size: 1.2rem;
+		font-size: .95rem;
+		padding: .9rem 1.8rem;
 	}
 }
 

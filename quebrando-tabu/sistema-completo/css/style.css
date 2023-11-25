@@ -145,8 +145,8 @@ body {
 
 /* Responsividade */
 
-/* Celulares pequenos - 320px até 375px */
-@media only screen and (min-width: 320px) and (max-width: 375px) {
+/* Smartphones - Até 600px */
+@media only screen and (max-width: 600px) {
 	.cabecalho img {
 		width: 7rem;
 	}
@@ -160,14 +160,13 @@ body {
 	}
 
 	.area-links-nav a {
-		font-size: .9rem;
+		font-size: .95rem;
 	}
 
 	#navBar.responsiva .area-links-nav {
 		display: block;
 		position: absolute;
 		top: 100%;
-		left: 0;
 		background: var(--cor3);
 		width: 100%;
 	}
@@ -178,64 +177,7 @@ body {
 
 	#btnMenu {
 		display: inline-block;
-		font-size: 1.6rem;
-		color: #fff;
-		background: transparent;
-		padding: 1rem;
-	}
-
-	.area-acessibilidade {
-		flex-direction: column-reverse;
-	}
-
-	.btn-acessibilidade {
-		font-size: .9rem;
-		padding: .9rem;
-	}
-
-	.copyright {
-		font-size: .9rem;
-	}
-
-	.copyright-img {
-		font-size: .8rem;
-	}
-}
-
-/* Celulares médios - 375px até 425px */
-@media only screen and (min-width: 375px) and (max-width: 425px) {
-	.cabecalho img {
-		width: 8rem;
-	}
-
-	.cabecalho h1 {
-		font-size: 1.9rem;
-	}
-
-	.area-links-nav {
-		display: none;
-	}
-
-	.area-links-nav a {
-		font-size: 1rem;
-	}
-
-	#navBar.responsiva .area-links-nav {
-		display: block;
-		position: absolute;
-		top: 100%;
-		left: 0;
-		background: var(--cor3);
-		width: 100%;
-	}
-
-	#navBar.responsiva .area-links-nav a {
-		display: block;
-	}
-
-	#btnMenu {
-		display: inline-block;
-		font-size: 1.8rem;
+		font-size: 1.7rem;
 		color: #fff;
 		background: transparent;
 		padding: 1rem;
@@ -251,50 +193,11 @@ body {
 	}
 
 	.copyright {
-		font-size: 1rem;
+		font-size: .95rem;
 	}
 
 	.copyright-img {
-		font-size: .9rem;
-	}
-}
-
-/* Celulares grandes - 425px até 768px */
-@media only screen and (min-width: 425px) and (max-width: 768px) {
-	.area-links-nav {
-		display: none;
-	}
-
-	#navBar.responsiva .area-links-nav {
-		display: block;
-		position: absolute;
-		top: 100%;
-		left: 0;
-		background: var(--cor3);
-		width: 100%;
-	}
-
-	#navBar.responsiva .area-links-nav a {
-		display: block;
-	}
-
-	#btnMenu {
-		display: inline-block;
-		font-size: 2rem;
-		color: #fff;
-		background: transparent;
-		padding: 1rem;
-	}
-
-	.area-acessibilidade {
-		flex-direction: column-reverse;
-	}
-}
-
-/* Tablets - 768px e acima */
-@media only screen and (min-width: 768px) {
-	.area-acessibilidade {
-		flex-direction: row;
+		font-size: .83rem;
 	}
 }
 

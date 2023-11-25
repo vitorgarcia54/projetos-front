@@ -52,14 +52,14 @@
 					<label for="titulo" class="acessibilidade">
 						Título <span class="campo-obrigatorio">*</span>
 					</label>
-					<input type="text" name="titulo" id="titulo" class="campos-form acessibilidade" placeholder="Digite um título">
+					<input type="text" name="titulo" id="titulo" class="campos-form acessibilidade" placeholder="Digite um título" maxlength="50" required>
 					<span class="msg-erro acessibilidade" id="msgErroTitulo"></span>
 				</div>
 				<div class="area-campos-form">
 					<label for="categoria" class="acessibilidade">
 						Categoria <span class="campo-obrigatorio">*</span>
 					</label>
-					<select name="categoria" id="categoria" class="campos-form acessibilidade">
+					<select name="categoria" id="categoria" class="campos-form acessibilidade" required>
 						<option value="">Selecione uma opção</option>
 						<option value="abuso">Abuso</option>
 						<option value="racismo">Racismo</option>
@@ -73,7 +73,7 @@
 					<label for="desabafo" class="acessibilidade">
 						Seu desabafo <span class="campo-obrigatorio">*</span>
 					</label>
-					<textarea name="desabafo" id="desabafo" class="campos-form acessibilidade" placeholder="Digite aqui o seu desabafo"></textarea>
+					<textarea name="desabafo" id="desabafo" class="campos-form acessibilidade" placeholder="Digite aqui o seu desabafo" maxlength="700" required></textarea>
 					<span class="msg-erro acessibilidade" id="msgErroDesabafo"></span>
 				</div>
 				<button type="submit" class="btn-submit acessibilidade">Enviar</button>
