@@ -201,5 +201,41 @@ body {
 	}
 }
 
+/* Smartphones grandes e tablets em modo retrato - 600px para cima */
+@media only screen and (min-width: 600px) {
+	.area-links-nav {
+		display: none;
+	}
 
+	#navBar.responsiva .area-links-nav {
+		display: block;
+		position: absolute;
+		top: 100%;
+		background: var(--cor3);
+		width: 100%;
+	}
+
+	#navBar.responsiva .area-links-nav a {
+		display: block;
+	}
+
+	#btnMenu {
+		display: inline-block;
+		font-size: 1.7rem;
+		color: #fff;
+		background: transparent;
+		padding: 1rem;
+	}
+}
+
+/* Tablets em modo paisagem - 768px para cima */
+@media only screen and (min-width: 768px) {
+	.area-links-nav {
+		display: block;
+	}
+
+	#btnMenu {
+		display: none;
+	}
+}
 
