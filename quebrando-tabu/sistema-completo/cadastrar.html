@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 	<meta charset="UTF-8">
-	<meta name="description" content="Página de desabafo do Quebrando Tabu">
+	<meta name="description" content="Página de cadastro de usuários do Quebrando Tabu">
 	<meta name="keywords" content="desabafar, cadastrar, cadastro">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Quebrando Tabu | Cadastre-se</title>
@@ -30,7 +30,7 @@
 			<a href="#!" class="acessibilidade">
 				<i class="bi bi-file-person"></i> Sobre Nós
 			</a>
-			<a href="#!">
+			<a href="#!" class="acessibilidade">
 				<i class="bi bi-door-open-fill"></i> Entrar
 			</a>
 		</div>
@@ -49,78 +49,78 @@
 			</header>
 			<form id="formCadastro">
 				<div class="area-campos-form">
-					<label for="usuario">
+					<label for="usuario" class="acessibilidade">
 						Nome de usuário: <span class="campo-obrigatorio">*</span>
 					</label>
-					<input type="text" name="usuario" id="usuario" class="campos-form" placeholder="Digite seu nome de usuário" maxlength="50" required>
-					<span class="msg-erro" id="msgErroUsuario"></span>
+					<input type="text" name="usuario" id="usuario" class="campos-form acessibilidade" placeholder="Digite seu nome de usuário" maxlength="50" required>
+					<span class="msg-erro acessibilidade" id="msgErroUsuario"></span>
 				</div>
 				<div class="area-campos-form">
-					<label for="senha">
+					<label for="senha" class="acessibilidade">
 						Senha: <span class="campo-obrigatorio">*</span>
 					</label>
-					<input type="password" name="senha" id="senha" class="campos-form" placeholder="Digite sua senha" minlength="8" maxlength="50" required>
+					<input type="password" name="senha" id="senha" class="campos-form acessibilidade" placeholder="Digite sua senha" minlength="8" maxlength="50" required>
 					<div class="area-mostrar-senha">
 						<input type="checkbox" name="mostrar-senha" id="mostrarSenha">
-						<label for="mostrarSenha">Mostrar senha</label>
+						<label for="mostrarSenha" class="acessibilidade">Mostrar senha</label>
 					</div>
-					<span class="msg-erro" id="msgErroSenha"></span>
+					<span class="msg-erro acessibilidade" id="msgErroSenha"></span>
 				</div>
 				<div class="area-campos-form area-campos-radio">
-					<p class="p-radio">
+					<p class="p-radio acessibilidade">
 						Deseja receber apoio de um voluntário? <span class="campo-obrigatorio">*</span>
 					</p>
 					<div class="area-radio">
 						<input type="radio" name="ap-voluntario" id="simApVol">
-						<label for="simApVol">Sim</label>
+						<label for="simApVol" class="acessibilidade">Sim</label>
 					</div>
 					<div class="area-radio">
 						<input type="radio" name="ap-voluntario" id="naoApVol" checked>
-						<label for="naoApVol">Não</label>
+						<label for="naoApVol" class="acessibilidade">Não</label>
 					</div>
-					<span class="msg-erro" id="msgErroApVol"></span>
+					<span class="msg-erro acessibilidade" id="msgErroApVol"></span>
 				</div>
 				<div class="area-campos-form area-campos-radio">
-					<p class="p-radio">
+					<p class="p-radio acessibilidade">
 						Deseja ser um voluntário? <span class="campo-obrigatorio">*</span>
 					</p>
 					<div class="area-radio">
 						<input type="radio" name="ser-voluntario" id="simSerVol">
-						<label for="simSerVol">Sim</label>
+						<label for="simSerVol" class="acessibilidade">Sim</label>
 					</div>
 					<div class="area-radio">
 						<input type="radio" name="ser-voluntario" id="naoSerVol" checked>
-						<label for="naoSerVol">Não</label>
+						<label for="naoSerVol" class="acessibilidade">Não</label>
 					</div>
-					<span class="msg-erro" id="msgErroSerVol"></span>
+					<span class="msg-erro acessibilidade" id="msgErroSerVol"></span>
 				</div>
 				<div class="area-campos-form area-campos-radio">
-					<p class="p-radio">
+					<p class="p-radio acessibilidade">
 						Deseja receber acompanhamento psicológico? <span class="campo-obrigatorio">*</span>
 					</p>
 					<div class="area-radio">
 						<input type="radio" name="ac-psic" id="simAcPsic">
-						<label for="simAcPsic">Sim</label>
+						<label for="simAcPsic" class="acessibilidade">Sim</label>
 					</div>
 					<div class="area-radio">
 						<input type="radio" name="ac-psic" id="naoAcPsic" checked>
-						<label for="naoAcPsic">Não</label>
+						<label for="naoAcPsic" class="acessibilidade">Não</label>
 					</div>
-					<span class="msg-erro" id="msgErroAcPsic"></span>
+					<span class="msg-erro acessibilidade" id="msgErroAcPsic"></span>
 				</div>
 				<div class="area-campos-form area-campos-opcionais">
-					<label for="telefone">
+					<label for="telefone" class="acessibilidade">
 						Telefone <span class="campo-obrigatorio">*</span>
 					</label>
-					<input type="tel" name="telefone" id="telefone" class="campos-form" placeholder="Digite seu telefone" maxlength="11" required>
-					<span class="msg-erro" id="msgErroTel"></span>
+					<input type="tel" name="telefone" id="telefone" class="campos-form acessibilidade" placeholder="Digite seu telefone" maxlength="11" required>
+					<span class="msg-erro acessibilidade" id="msgErroTel"></span>
 				</div>
 				<div class="area-campos-form area-campos-opcionais">
-					<label for="email">
+					<label for="email" class="acessibilidade">
 						E-mail <span class="campo-obrigatorio">*</span>
 					</label>
-					<input type="email" name="email" id="email" class="campos-form" placeholder="Digite seu email" maxlength="50" required>
-					<span class="msg-erro" id="msgErroEmail"></span>
+					<input type="email" name="email" id="email" class="campos-form acessibilidade" placeholder="Digite seu email" maxlength="50" required>
+					<span class="msg-erro acessibilidade" id="msgErroEmail"></span>
 				</div>
 				<button type="submit" class="btn-submit acessibilidade">Enviar</button>
 			</form>
